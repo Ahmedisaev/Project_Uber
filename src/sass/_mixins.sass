@@ -1,0 +1,33 @@
+@mixin label
+	width: 115px
+	height: 27px
+	background: #000000
+	font-weight: 400
+	font-size: 11px
+	line-height: 27px
+	text-align: center
+	text-transform: uppercase
+	color: #FFFFFF
+	mix-blend-mode: normal
+	margin: 0 auto
+
+@mixin white_title
+	font-weight: 700
+	font-size: 38px
+	line-height: 48px
+	text-align: center
+	text-transform: uppercase
+	color: #FFFFFF
+	margin-top: 26px
+
+@mixin white_subtitle
+	font-weight: 400
+	font-size: 17px
+	line-height: 21px
+	text-align: center
+	color: #FFFFFF
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $main_color_blue
